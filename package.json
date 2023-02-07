@@ -1,0 +1,17 @@
+{
+  "name": "puppeterr-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc && (node ./dist/index.js)",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "guan-xin wang",
+  "license": "ISC",
+  "devDependencies": {
+    "puppeteer": "^15.4.0",
+    "puppeteer-cluster": "^0.23.0",
+    "typescript": "^4.7.4"
+  }
+}
